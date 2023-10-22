@@ -1,0 +1,54 @@
+name: cashier_mate
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-339.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.11.0
+  http: ^0.13.5
+  shared_preferences: ^2.0.17 #<--For local save or load data
+  connectivity_plus: ^3.0.3 #<-- cek conection #<- not yet
+  auto_size_text: ^3.0.0
+  blue_thermal_printer: ^1.2.3 #<-- for printer just android #<- not yet
+  get: ^4.6.5
+
+  firebase_core: ^2.7.1 #<- not yet
+  firebase_auth: ^4.2.10 #<- not yet
+  google_sign_in: ^6.0.2 #<- not yet
+  # flutter_facebook_auth: ^5.0.8 #<- not yet
+
+  provider: ^6.0.5
+  webview_flutter: ^4.0.7
+  pdf: ^3.7.0
+  flutter_email_sender: ^5.2.0
+  path_provider: ^2.0.14
+
+flutter_icons: #<-- asset add in here
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/cashier_app.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0 #<- rules here
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/filters/
+    - assets/images/
